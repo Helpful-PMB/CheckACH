@@ -46,6 +46,9 @@ namespace CheckACH
 
 					Row++;
 				}
+
+				Console.WriteLine();
+
 				if (Errors.Count == 0)
 				{
 					Console.WriteLine("**** FILE IS OK");
